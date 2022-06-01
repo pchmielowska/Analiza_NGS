@@ -3,24 +3,24 @@
 ### Data
 Data: https://www.ncbi.nlm.nih.gov/sra/SRX025959[accn] <br>
 Submitted by: University of Michigan<br>
-Project: “Pooled linkage analysis for discovery of Saccharomyces cerevisiae functional mutations by whole genome sequencing”
+Project: “Pooled linkage analysis for discovery of Saccharomyces cerevisiae functional mutations by whole genome sequencing”<br>
 
-SRA:SRP003355, Whole Genome Sequencing
-Experiments: 3 (3 samples)
-Runs: 3 (3.8Gbp; 2.5Gb)
-Organism: Saccharomyces cerevisiae
-Layout: PAIRED
-The purpose of this experiment was to identify mutated genes in vac6 and vac22 yeast mutants. 
+SRA:SRP003355, Whole Genome Sequencing<br>
+Experiments: 3 (3 samples)<br>
+Runs: 3 (3.8Gbp; 2.5Gb)<br>
+Organism: Saccharomyces cerevisiae<br>
+Layout: PAIRED<br>
+The purpose of this experiment was to identify mutated genes in vac6 and vac22 yeast mutants. <br>
 
 
 ### Steps of analysis:
-1 Acquiring raw data - SRA repositorium
-2 Quality control - fastq
-3 Trimming - trimmomatic
-4 Quality control - fastq
-5 Comparison to the reference genome - hisat2
-6 Detection of polymorphisms - bcftools
-7 Biological sense and analysis of results
+1 Acquiring raw data - SRA repositorium<br>
+2 Quality control - fastq<br>
+3 Trimming - trimmomatic<br>
+4 Quality control - fastq<br>
+5 Comparison to the reference genome - hisat2<br>
+6 Detection of polymorphisms - bcftools<br>
+7 Biological sense and analysis of results<br>
 
 ### Steps in detail description:
 1. Acquiring raw data - SRA repositorium
